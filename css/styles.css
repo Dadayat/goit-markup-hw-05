@@ -820,7 +820,10 @@ margin-bottom: 16px;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.04em;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
+}
+
+.input-label {
 }
 
 .modal-textarea {
@@ -836,6 +839,7 @@ margin-bottom: 16px;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.04em;
+  margin-bottom: 16px;
 }
 
 .modal-form-btn {
@@ -859,4 +863,9 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+}
+
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color: var(--hover-color);
 }
