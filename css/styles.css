@@ -869,3 +869,38 @@ letter-spacing: 0.04em;
 .modal-form-btn:focus {
   background-color: var(--hover-color);
 }
+
+.check-text {
+  color: var(--customers-color);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.privacy-link {
+  color: var(--logo-color);
+}
+.check-text span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid var(--primary-black-color);
+  margin-right: 8px;
+  fill: transparent;
+}
+
+.modal-check:checked+.check-text span {
+  background-color: var(--hover-color);
+  border: none;
+  fill: #ffffff;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
