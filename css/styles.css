@@ -923,6 +923,7 @@ letter-spacing: 0.04em;
 .modal-span {
   display: inline-flex;
 }
+
 .modal-check:checked+.check-text span {
   background-color: var(--hover-color);
   border: none;
