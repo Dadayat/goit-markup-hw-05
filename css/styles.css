@@ -550,6 +550,7 @@ margin-bottom: 16px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   border-radius: 4px;
@@ -825,7 +826,6 @@ margin-bottom: 16px;
   fill: var(--logo-color);
 }
 
-.input-label,
 .input-label-text {
   display: block;
   color: var(--customers-color);
@@ -899,9 +899,6 @@ letter-spacing: 0.04em;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: inline-flex;
-  align-items: center;
-  position: relative;
 }
 
 .privacy-link {
